@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>User Entry</title>
+		<link rel="stylesheet" href="frmstyle.css" type="text/css">
+		
+		<style>
+		 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina'); 
+		 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina|Exo');
+		</style>
+	</head>
+	<body background="wallpaper-for-hd-7.jpg" background-position="right center" bacground-repeat="no-repeat">
+		<div class="header">
+			<div class="header">
+				<div>Student<span>Entry</span></div>
+				<form name="register" method="post" action="validation.js" onSubmit="return validate();">
+					<div class="login">
+							<table>
+								<tr>
+								<td><p>Name:</p></td>
+								<td><input type="text" name="fname" id="fname" placeholder="Enter name"
+								required="true" /></td>
+								</tr>
+								
+							
+								<tr>
+								<td><p>Email:</p></td>
+								<td><input type="email" name="email" id="email" placeholder="Enter email"  required="true" /></p></td>
+								</tr>
+
+								<tr>
+								<td><p>Mobile No.:</p></td>
+								<td><input type="text" name="mob" id="mob" placeholder="Enter mobile" required="true" maxlength="10" minlength="10" /></p></td>
+								</tr>								
+							
+								<tr>
+								<td><p>Password:</p></td>
+								<td><input type="password" name="pwd" id="pwd" placeholder="Enter password" maxlength="16" /></p></td>
+								</tr>
+
+								<tr>
+								<td><p>Confirm Password:</p></td>
+								<td><input type="password" name="cpwd" id="cpwd" placeholder="Confirm password" maxlength="16" /></p></td>
+								</tr>
+								
+							
+								<tr>
+								<td><p>DOB:</p></td><td><input type="Date" name="date1" id="dt" placeholder="Enter Date of birth" max="1990-12-31"/></p></td>
+								</tr>
+								
+							
+								<tr>
+								<td><p>City:</p></td>
+								<td><input type="text" name="city1" id="city" placeholder="Enter City name" maxlength="15" /></p></td>
+								</tr>
+								
+							
+								<tr>
+								<td><p>Gender:</p></td>
+								<td><p><input type="radio" name="gender" id="gndr" Value="rdm"/>Male<br>
+								
+								<input type="radio" name="gender" id="gndr" Value="rdf" />Female</p></td>
+								</tr>
+								
+
+								<tr>
+								<td><p>Certifications:</p></td>
+								<td><p><input type="checkbox" id="C" name="C" Value="C" />C<br>
+								<input type="checkbox" id="Java"  name="Java" Value="JAVA" />Java<br><input type="checkbox" id="PHP"  name="PHP" Value="PHP" />PHP</p></td></tr>
+
+								<tr><td><p> 
+								<input type="reset" name="s1" value="Reset"></p></td>
+								<td><p><input type="submit" name="s1" value="Register">
+								</p></td>
+								</tr>
+							</tr></table>
+					</div>	
+				</form>
+			</div>				
+		</div>
+		<script src="validation.js"></script>	
+	</body>
+</html>
