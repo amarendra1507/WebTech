@@ -4,6 +4,9 @@ function validate()
 	var regex_city=/[A-Za-z]{5,20}/;
 	var regex_mob=/[0-9]{10,10}/;
 	var regex_pwd=/[A-Za-z0-9]{6,20}/;
+	var regex_email=/^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/;
+
+
 	
 	var name_test=document.getElementById("fname").value;
 	var city_test=document.getElementById("city").value;
@@ -11,12 +14,18 @@ function validate()
 	var pwd_test=document.getElementById("pwd").value;
 	var cpwd_test=document.getElementById("cpwd").value;
 	var gender_test=document.getElementById("gndr").value;
+	var email_test=document.getElementById("email").value;
 
 
 
 	
 	if (!regex_name.test(name_test) || name_test==""){		
 		alert("Name shouldn't be blank or numeric!!!\nMinimum 3 characters and maximum 20 characters.\nRetry again")
+		return false;
+	}
+
+	if (!regex_email.test(email_test) || email_test==""){		
+		alert("Email id is invalid or blank.\nRetry again")
 		return false;
 	}
 
@@ -46,14 +55,6 @@ function validate()
 		alert("Please select gender !!!");
 		return false;
 	}
-
-	
-
-	
-
-
-
-	alert("You have successfully registered Mr."+name_test);
-	return false;
-
+	alert("Form is submitting");
+	return true;
 }
