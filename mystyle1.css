@@ -1,0 +1,45 @@
+body {
+	background-color:gray;
+}
+h1 {
+    color:navy;
+}
+div.Middle {
+	border-style:solid;
+	margin-left:200px;
+	margin-right:200px;
+  background-color:lightblue;
+}
+div.left{
+	border-style:solid;
+	margin-left:200px;
+	margin-right:200px;
+  background-color:;
+
+}
+
+p.heading{
+	border: 2px solid Green;
+    border-radius: 10px;
+	border-style:outset;
+	background-color:green;
+}
+p.content{
+	margin-left:20px;
+	margin-right:20px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
