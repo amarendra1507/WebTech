@@ -1,0 +1,220 @@
+
+.header div{
+	float:center;
+	color:#fff;
+	font-family:'Exo';
+	font-size:50px;
+	font-weight:200px;
+}
+
+p{
+	float:center;
+	color:#fff;
+	font-family:'Exo';
+	font-size:25px;
+	font-weight:200px;
+
+}
+
+.header div span{
+	color:#5D6D7E !important;
+}
+
+.login{
+	position:absolute;
+	top:20px;
+	left:350px;
+	height:150px;
+	width:150px;
+	padding:10px;
+}
+.login input[type=text]{
+	width:250px;
+	height:30px;
+	background:transparent;
+	border:1px solid rgba(255,255,255,0.6);
+	border-radius:2px;
+	color:#fff;
+	font-family:'Exo';
+	font-size:16px;
+	font-weight:400px;
+	padding:4px;
+}
+.login input[type=email]{
+	width:250px;
+	height:30px;
+	background:transparent;
+	border:1px solid rgba(255,255,255,0.6);
+	border-radius:2px;
+	color:#fff;
+	font-family:'Exo';
+	font-size:16px;
+	font-weight:400px;
+	padding:4px;
+}
+
+.login input[type=number]{
+	width:250px;
+	height:30px;
+	background:transparent;
+	border:1px solid rgba(255,255,255,0.6);
+	border-radius:2px;
+	color:#fff;
+	font-family:'Exo';
+	font-size:16px;
+	font-weight:400px;
+	padding:4px;
+}
+
+.login input[type=date]{
+	width:250px;
+	height:30px;
+	background:transparent;
+	border:1px solid rgba(255,255,255,0.6);
+	border-radius:2px;
+	color:#fff;
+	font-family:'Exo';
+	font-size:16px;
+	font-weight:400px;
+	padding:4px;
+}
+
+.login input[type=password]{
+	width:250px;
+	height:30px;
+	background:transparent;
+	border:1px solid rgba(255,255,255,0.6);
+	border-radius:2px;
+	color:#fff;
+	font-family:'Exo';
+	font-size:16px;
+	font-weight:400px;
+	padding:4px;
+}
+.login input[type=button]{
+	width:260px;
+	height:40px;
+	background:white;
+	border:1px solid rgba(255,255,255,0.6);
+	border-radius:2px;
+	color:#000;
+	font-family:'Exo';
+	font-size:16px;
+	font-weight:400px;
+	padding:4px;
+}
+.login input[type=submit]{
+	width:260px;
+	height:40px;
+	background:white;
+	border:1px solid rgba(255,255,255,0.6);
+	border-radius:2px;
+	color:#000;
+	font-family:'Exo';
+	font-size:16px;
+	font-weight:400px;
+	padding:4px;
+}
+.login input[type=reset]{
+	width:260px;
+	height:40px;
+	background:white;
+	border:1px solid rgba(255,255,255,0.6);
+	border-radius:2px;
+	color:#000;
+	font-family:'Exo';
+	font-size:16px;
+	font-weight:400px;
+	padding:4px;
+}
+
+.login input[type=radio]{
+	width:20px;
+	height:20px;
+	background:white;
+	border:1px solid rgba(255,255,255,0.6);
+	border-radius:2px;
+	color:#000;
+	font-family:'Exo';
+	font-size:16px;
+	font-weight:400px;
+	padding:4px;
+}
+
+.login input[type=checkbox]{
+	width:20px;
+	height:20px;
+	background:white;
+	border:1px solid rgba(255,255,255,0.6);
+	border-radius:2px;
+	color:#000;
+	font-family:'Exo';
+	font-size:16px;
+	font-weight:400px;
+	padding:4px;
+}
+
+.login input[type=checkbox]:hover{
+	opacity:0.8;
+}
+.login input[type=checkbox]:active{
+	opacity:0.6;
+}
+
+.login input[type=button]:hover{
+	opacity:0.8;
+}
+.login input[type=button]:active{
+	opacity:0.6;
+}
+.login input[type=radio]:hover{
+	opacity:0.8;
+}
+.login input[type=radio]:active{
+	opacity:0.6;
+}
+.login input[type=submit]:hover{
+	opacity:0.8;
+}
+.login input[type=submit]:active{
+	opacity:0.6;
+}
+
+.login input[type=reset]:hover{
+	opacity:0.8;
+}
+.login input[type=reset]:active{
+	opacity:0.6;
+}
+
+.login input[type=text]:focus{
+	outline:none;
+	border:1px solid rgba(255,255,255,0.9);
+}
+.login input[type=password]:focus{
+	outline:none;
+	border:1px solid rgba(255,255,255,0.9);
+}
+.login input[type=email]:focus{
+	outline:none;
+	border:1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=number]:focus{
+	outline:none;
+	border:1px solid rgba(255,255,255,0.9);
+}
+.login input[type=date]:focus{
+	outline:none;
+	border:1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=password]:focus{
+	outline:none;
+}
+::-webkit-input-placeholder{
+	color:rgba(255,255,255,0.6);
+}
+::-moz-input-placeholder{
+	color:rgba(255,255,255,0.6);
+}
